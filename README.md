@@ -9,6 +9,8 @@ The current array is designed to be tile-able, with up to four of the boards (24
 
 The Arduino firmware has a framerate of approximately 10 frames per second, when the image data is streamed over the serial port and displayed using the Processing visualization.  The Raspberry Pi Python example achieves approximately 30fps.  The array itself is likely capable of much higher speeds, but one of the major limiting factors is currently the speed of the I2C I/O multiplexer (used to select which magnetometer to read from). 
 
+For more information (and a video of the tile in use), please see: 
+https://hackaday.io/project/18518-iteration-8/log/64376-a-magnetic-imager-tile
 
 # Open Source
 
