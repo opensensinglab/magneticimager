@@ -1,0 +1,3 @@
+KNOWN ERRATA:
+Version 2 revision 0
+- The MOSFET to enable power (Q1) did not function, and is likely wired incorrectly.  The fix for this (if you've already made one of the boards without fixing the source) is to remove Q1, and add a small jumper so that the power is always enabled.
